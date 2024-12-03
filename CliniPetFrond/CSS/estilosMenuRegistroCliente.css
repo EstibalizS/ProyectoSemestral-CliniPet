@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom:  2em ;
     background-color: #f5f5f5;
-}
+    min-height: 100vh;
+  }
 
 h1 {
     margin: 0;
@@ -41,10 +42,11 @@ h1 span {
   }
 
   /* Footer */
-.footer {
+  .footer {
     position: absolute; /* Se posicionará respecto al contenedor */
     left: 0;
     bottom: 0;
+    padding: 1em 0;
     width: 100%; /* Ocupa todo el ancho */
     height: 60px; /* Altura del footer */
     background-color: #035E8D; /* Color del footer */

@@ -1,12 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom:  2em ;
     background-image: url('../imagenes/fondo\ de\ pantalla\ para\ formularios.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
+    min-height: 100vh;
 }
 
 .container {
@@ -135,10 +136,11 @@ form button.btn:hover {
   }
   
 
-.footer {
+  .footer {
     position: absolute; /* Se posicionará respecto al contenedor */
     left: 0;
     bottom: 0;
+    padding: 1em 0;
     width: 100%; /* Ocupa todo el ancho */
     height: 60px; /* Altura del footer */
     background-color: #035E8D; /* Color del footer */
