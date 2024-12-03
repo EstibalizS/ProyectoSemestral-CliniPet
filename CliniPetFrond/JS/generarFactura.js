@@ -78,7 +78,7 @@ document.getElementById('siguiente').addEventListener('click', async () => {
     }
 
     const requestData = {
-        CedulaCliente: cedulaCliente, // Cambia los nombres de las propiedades según lo que espera tu API
+        CedulaCliente: cedulaCliente, 
         IDMascota: idMascota
     };
 
@@ -129,8 +129,7 @@ function mostrarPrefacturaVacia() {
     const mensaje = document.getElementById('mensaje');
     
     // Limpiar el contenido de la prefactura (si ya tiene algo de antes)
-    document.getElementById("prefactura-cliente").textContent = '';
-    document.getElementById("prefactura-fecha").textContent = '';
+    
     document.getElementById("prefactura-id").textContent = '';
     
     // Mostrar el recuadro de la prefactura vacía
@@ -174,7 +173,7 @@ document.getElementById("btnServicios").addEventListener("click", function() {
     mostrarFormulario("servicio");
     //rellenar el id de la mascota
     if (idMascotaGlobal) {
-        const mascotaInput = document.getElementById('mascota-id'); // Asegúrate de usar el ID correcto del campo
+        const mascotaInput = document.getElementById('mascota-id'); 
         mascotaInput.value = idMascotaGlobal;
     }
 });
@@ -232,7 +231,7 @@ async function cargarServicios() {
 // Función para agregar un servicio
 document.getElementById("btnAgregarServicio").addEventListener("click", async function () {
     const idItem = document.getElementById("servicios").value;
-    const idMascota = idMascotaGlobal; // Asumiendo que lo tienes global
+    const idMascota = idMascotaGlobal; 
     const idFactura = idFacturaGlobal;
 
     if (!idItem) {
@@ -326,16 +325,16 @@ document.getElementById("btnAgregarProducto").addEventListener("click", async fu
 });
 
 async function fetchAndProcessResponse(response) {
-    // Read and process response before consuming it
-    const responseText = await response.text(); // Read it as plain text first
+    
+    const responseText = await response.text(); 
     //console.log("Response Body:", responseText);
 
-    // Now process the response as JSON
+    
     return JSON.parse(responseText);  // Parse the body as JSON
 }
 
 async function finalizarFactura() {
-    // Utilizar el idFacturaGlobal directamente sin necesidad de obtenerlo de la URL
+    // Utilizar el idFacturaGlobal 
     const idFactura = idFacturaGlobal;
 
     // Log para verificar el valor de idFactura
@@ -351,7 +350,7 @@ async function finalizarFactura() {
 
     // Crear el cuerpo de la solicitud para completar la factura
     const requestBody = {
-        IDFactura: idFactura // Usamos el idFacturaGlobal directamente
+        IDFactura: idFactura 
     };
 
     // Log para verificar los datos que se van a enviar al servidor
@@ -362,9 +361,9 @@ async function finalizarFactura() {
         const response = await fetch("https://localhost:7049/api/generarFacturaCompleta/completar-factura", {
             method: "POST", // Método POST para enviar datos
             headers: {
-                "Content-Type": "application/json" // Asegúrate de enviar los datos como JSON
+                "Content-Type": "application/json" 
             },
-            body: JSON.stringify(requestBody) // Convertir el cuerpo de la solicitud a formato JSON
+            body: JSON.stringify(requestBody) 
         });
 
         //console.log("Response status:", response.status);
