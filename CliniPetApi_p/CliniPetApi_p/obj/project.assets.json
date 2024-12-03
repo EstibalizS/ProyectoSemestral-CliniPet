@@ -2800,11 +2800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
+      "projectUniqueName": "C:\\Users\\es199\\repositorio2\\ProyectoSemestral-CliniPet\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
       "projectName": "CliniPetApi_p",
-      "projectPath": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
+      "projectPath": "C:\\Users\\es199\\repositorio2\\ProyectoSemestral-CliniPet\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
       "packagesPath": "C:\\Users\\es199\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\obj\\",
+      "outputPath": "C:\\Users\\es199\\repositorio2\\ProyectoSemestral-CliniPet\\CliniPetApi_p\\CliniPetApi_p\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

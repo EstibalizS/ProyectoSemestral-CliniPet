@@ -1,9 +1,10 @@
+
 document.getElementById('formActualizarCliente').addEventListener('submit', async function (event) {
     event.preventDefault();
 
     const cedula = document.getElementById('cedula').value.trim();
     const telefono = document.getElementById('telefono').value.trim();
-    const email = document.getElementById('email').value.trim();
+    
     const direccion = document.getElementById('direccion').value.trim();
     const resultContainer = document.getElementById('resultContainer');
 
@@ -19,7 +20,7 @@ document.getElementById('formActualizarCliente').addEventListener('submit', asyn
     }
 
     try {
-        const url = `http://localhost:4097/api/ActualizarCliente/actualizar?cedula=${encodeURIComponent(cedula)}&telefono=${encodeURIComponent(telefono)}&email=${encodeURIComponent(email)}&direccion=${encodeURIComponent(direccion)}`;
+        const url = `http://localhost:7049/api/ActualizarCliente/actualizar?cedula=${encodeURIComponent(cedula)}&telefono=${encodeURIComponent(telefono)}&email=${encodeURIComponent(email)}&direccion=${encodeURIComponent(direccion)}`;
 
         const response = await fetch(url, { method: 'PUT' });
         const result = await response.json();

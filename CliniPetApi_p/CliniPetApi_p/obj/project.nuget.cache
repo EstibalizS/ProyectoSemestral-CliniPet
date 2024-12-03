@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V2w1c+GQ238=",
+  "dgSpecHash": "SUwxEwau110=",
   "success": true,
-  "projectFilePath": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
+  "projectFilePath": "C:\\Users\\es199\\repositorio2\\ProyectoSemestral-CliniPet\\CliniPetApi_p\\CliniPetApi_p\\CliniPetApi_p.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\es199\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\es199\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -127,7 +127,7 @@ form button.btn:hover {
 
     /* Footer */
 .footer {
-    position: sticky; /* Se posicionará respecto al contenedor */
+    position: absolute; /* Se posicionará respecto al contenedor */
     left: 0;
     bottom: 0;
     width: 100%; /* Ocupa todo el ancho */
