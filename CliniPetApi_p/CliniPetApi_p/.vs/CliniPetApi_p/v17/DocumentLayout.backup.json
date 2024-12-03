@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\generarfacturacompleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\generarfacturacompleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\registrarmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\registrarmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\actualizarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\actualizarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\generarfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\generarfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\models\\actualizarinventariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:models\\actualizarinventariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\consultarclienteymascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\consultarclienteymascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\models\\mascotamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:models\\mascotamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\completarfacturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\completarfacturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\registrarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\registrarclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\comprarproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\comprarproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\registrarserviciomascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\registrarserviciomascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\actualizarmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\actualizarmascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\models\\completarfacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:models\\completarfacturarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|c:\\users\\es199\\downloads\\clinipetapi_p\\clinipetapi_p\\controllers\\registrarinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7551A5-03A5-4EC2-BA74-ED4D50DF1282}|CliniPetApi_p.csproj|solutionrelative:controllers\\registrarinventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActualizarInventarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\ActualizarInventarioRequest.cs",
+              "RelativeDocumentMoniker": "Models\\ActualizarInventarioRequest.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\ActualizarInventarioRequest.cs",
+              "RelativeToolTip": "Models\\ActualizarInventarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:37:15.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T07:19:57.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QRController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\QRController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QRController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\QRController.cs",
+              "RelativeToolTip": "Controllers\\QRController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:45:28.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrarMascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarMascotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrarMascotaController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarMascotaController.cs",
+              "RelativeToolTip": "Controllers\\RegistrarMascotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:51:53.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "generarFacturaCompleta.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\generarFacturaCompleta.cs",
+              "RelativeDocumentMoniker": "Controllers\\generarFacturaCompleta.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\generarFacturaCompleta.cs",
+              "RelativeToolTip": "Controllers\\generarFacturaCompleta.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswJYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:17:47.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActualizarClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ActualizarClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActualizarClienteController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ActualizarClienteController.cs",
+              "RelativeToolTip": "Controllers\\ActualizarClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:43:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:02:59.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T20:03:26.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "generarFactura.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\generarFactura.cs",
+              "RelativeDocumentMoniker": "Controllers\\generarFactura.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\generarFactura.cs",
+              "RelativeToolTip": "Controllers\\generarFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:51:32.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsultarClienteYMascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ConsultarClienteYMascotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConsultarClienteYMascotaController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ConsultarClienteYMascotaController.cs",
+              "RelativeToolTip": "Controllers\\ConsultarClienteYMascotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:29:37.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrarClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrarClienteController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarClienteController.cs",
+              "RelativeToolTip": "Controllers\\RegistrarClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:51:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "completarFacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\completarFacturaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\completarFacturaController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\completarFacturaController.cs",
+              "RelativeToolTip": "Controllers\\completarFacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:48:53.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MascotaModel.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\MascotaModel.cs",
+              "RelativeDocumentMoniker": "Models\\MascotaModel.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\MascotaModel.cs",
+              "RelativeToolTip": "Models\\MascotaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:00:39.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "comprarProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\comprarProductoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\comprarProductoController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\comprarProductoController.cs",
+              "RelativeToolTip": "Controllers\\comprarProductoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:51:14.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "registrarServicioMascota.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\registrarServicioMascota.cs",
+              "RelativeDocumentMoniker": "Controllers\\registrarServicioMascota.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\registrarServicioMascota.cs",
+              "RelativeToolTip": "Controllers\\registrarServicioMascota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:52:11.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ActualizarMascotaController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ActualizarMascotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActualizarMascotaController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\ActualizarMascotaController.cs",
+              "RelativeToolTip": "Controllers\\ActualizarMascotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:44:48.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "Models\\ClienteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:47:37.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompletarFacturaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\CompletarFacturaRequest.cs",
+              "RelativeDocumentMoniker": "Models\\CompletarFacturaRequest.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Models\\CompletarFacturaRequest.cs",
+              "RelativeToolTip": "Models\\CompletarFacturaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:47:24.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegistrarInventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarInventarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrarInventarioController.cs",
+              "ToolTip": "C:\\Users\\es199\\Downloads\\CliniPetApi_p\\CliniPetApi_p\\Controllers\\RegistrarInventarioController.cs",
+              "RelativeToolTip": "Controllers\\RegistrarInventarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:09:01.104Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

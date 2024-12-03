@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/fondo_de_pantalla_para_formularios.png'); /* Ajuste de ruta */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #E6E2D6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.container h1 {
+    color: #393939;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    background: #E6E2D6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form .form-control:focus {
+    border-color: #035E8D;
+    box-shadow: 0 0 5px rgba(3, 94, 141, 0.5);
+}
+
+form button.btn {
+    background-color: #fbc68d;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 100%;
+}
+
+form button.btn:hover {
+    background-color: #fea240;
+}
+
+/* Results Container */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-radius: 5px;
+    color: #0f5132;
+}
+
+.result table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result th, .result td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.result th {
+    background-color: #035E8D;
+    color: white;
+}
+
+.result td img {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #035E8D;
+    border-bottom: 2px solid #ffa500;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-menu {
+    background-color: #035E8D;
+}
+
+.navbar-menu ul {
+    padding-left: 0;
+}
+
+.navbar-menu li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #035E8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

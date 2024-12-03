@@ -1,0 +1,380 @@
+[
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.ActualizarClienteController",
+    "Method": "ActualizarCliente",
+    "RelativePath": "api/ActualizarCliente/actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telefono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CiliniPetApi.Controllers.ActualizarInventarioController",
+    "Method": "ActualizarInventario",
+    "RelativePath": "api/ActualizarInventario/actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.ActualizarInventarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.ActualizarMascotaController",
+    "Method": "ActualizarMascota",
+    "RelativePath": "api/ActualizarMascota/actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMascota",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "nuevoPeso",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "nuevaEdad",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.completarFacturaController",
+    "Method": "CompletarFactura",
+    "RelativePath": "api/completarFactura/CompletarFactura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.CompletarFacturaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.comprarProductoController",
+    "Method": "ComprarProducto",
+    "RelativePath": "api/comprarProducto/comprar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.comprarProductoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.ConsultarClienteYMascotaController",
+    "Method": "ConsultarClienteYMascota",
+    "RelativePath": "api/ConsultarClienteYMascota/consultar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idMascota",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFactura",
+    "Method": "GenerarFactura",
+    "RelativePath": "api/generarFactura/generar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.FacturaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "CompletarFactura",
+    "RelativePath": "api/generarFacturaCompleta/completar-factura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.CompletarFacturaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "ComprarProducto",
+    "RelativePath": "api/generarFacturaCompleta/comprar-producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.comprarProductoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "GenerarFactura",
+    "RelativePath": "api/generarFacturaCompleta/generar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.FacturaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "ObtenerMascotasPorCedula",
+    "RelativePath": "api/generarFacturaCompleta/mascotas/{cedulaCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedulaCliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "ObtenerProductos",
+    "RelativePath": "api/generarFacturaCompleta/productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "RegistrarServicioMascota",
+    "RelativePath": "api/generarFacturaCompleta/registrar-servicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.ServicioMascotaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "ObtenerServicios",
+    "RelativePath": "api/generarFacturaCompleta/servicios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.generarFacturaCompleta",
+    "Method": "VerFactura",
+    "RelativePath": "api/generarFacturaCompleta/verFactura/{idFactura}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFactura",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.QRController",
+    "Method": "GenerarCodigoQR",
+    "RelativePath": "api/QR/generarQR",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedulaCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.RegistrarClienteController",
+    "Method": "RegistrarCliente",
+    "RelativePath": "api/RegistrarCliente/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.RegistrarMascotaController",
+    "Method": "ObtenerRazas",
+    "RelativePath": "api/RegistrarMascota/razas/{especieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.RegistrarMascotaController",
+    "Method": "RegistrarMascota",
+    "RelativePath": "api/RegistrarMascota/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDMascota",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreMascota",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Especie",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Peso",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CedulaCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RazaID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Genero",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CliniPetApi_p.Controllers.registrarServicioMascota",
+    "Method": "RegistrarServicioMascota",
+    "RelativePath": "api/registrarServicioMascota/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CliniPetApi_p.Models.ServicioMascotaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
