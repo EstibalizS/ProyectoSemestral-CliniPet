@@ -38,6 +38,7 @@
     background-attachment: fixed; 
     background-position: center; 
     min-height: 100vh;
+    position: relative;
 }
 
 /* Navbar */

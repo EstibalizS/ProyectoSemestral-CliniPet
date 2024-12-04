@@ -9,10 +9,13 @@ body {
     background-attachment: fixed; 
     background-position: center; 
     min-height: 100vh;
+    position: relative;
 }
 
+
+/* Main Content */
 .container {
-    max-width: 800px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background: #E6E2D6;
@@ -22,16 +25,17 @@ body {
 }
 
 .container h1 {
-    color: #393939;
+    color: #393939; 
     text-align: center;
     margin-bottom: 20px;
 }
 
 /* Form Styles */
 form {
-    background: #E6E2D6;
+    background: #E6E2D6; /* Fondo blanco solo para el formulario */
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form .form-label {
@@ -52,21 +56,22 @@ form .form-control:focus {
 }
 
 form button.btn {
-    background-color: #fbc68d;
+    background-color: #fbc68d !important; /* Elimina el azul y fuerza el color que quiero */
     color: white;
-    padding: 10px;
+    padding: 10px; 
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: center;
-    width: 100%;
+    width: 20px; 
+    text-align: center; 
 }
 
 form button.btn:hover {
-    background-color: #fea240;
+    background-color: #fea240  !important; /* Un tono más oscuro para el hover */
 }
+
 
 /* Results Container */
 .result {
@@ -76,27 +81,7 @@ form button.btn:hover {
     border: 1px solid #badbcc;
     border-radius: 5px;
     color: #0f5132;
-}
-
-.result table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.result th, .result td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-.result th {
-    background-color: #035E8D;
-    color: white;
-}
-
-.result td img {
-    max-width: 100px;
-    border-radius: 5px;
+    display: none;
 }
 
 /* Responsive Design */
@@ -105,46 +90,22 @@ form button.btn:hover {
         margin: 10px;
         padding: 15px;
     }
+
+    header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    header .header-icons {
+        margin-top: 10px;
+    }
 }
 
-/* Navbar */
-.navbar-custom {
-    background-color: #035E8D;
-    border-bottom: 2px solid #ffa500;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-menu {
-    background-color: #035E8D;
-}
-
-.navbar-menu ul {
-    padding-left: 0;
-}
-
-.navbar-menu li {
-    list-style: none;
-    margin: 5px 0;
-}
-
-.navbar-menu a {
-    text-decoration: none;
-    color: white;
-}
-
-/* Footer */
-.footer {
+/* Header */
+.header {
     position: absolute; /* Se posicionará respecto al contenedor */
     left: 0;
     bottom: 0;
-    padding: 1em 0;
     width: 100%; /* Ocupa todo el ancho */
     height: 60px; /* Altura del footer */
     background-color: #035E8D; /* Color del footer */
@@ -152,5 +113,32 @@ form button.btn:hover {
     justify-content: center; /* Centrar contenido horizontalmente */
     align-items: center; /* Centrar contenido verticalmente */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    color: white;
 }
+  
+  .header-icons {
+    display: flex; /* Si tienes más íconos, también los alinea */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-icons i {
+    font-size: 25px; /* Tamaño del ícono */
+    color: #fff; /* Color del ícono */
+    margin-right: 30px;
+  }
+
+    /* Footer */
+    .footer {
+        position: absolute; /* Se posicionará respecto al contenedor */
+        left: 0;
+        bottom: 0;
+        padding: 1em 0;
+        width: 100%; /* Ocupa todo el ancho */
+        height: 60px; /* Altura del footer */
+        background-color: #035E8D; /* Color del footer */
+        display: flex; /* Activar flexbox */
+        justify-content: center; /* Centrar contenido horizontalmente */
+        align-items: center; /* Centrar contenido verticalmente */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        color: white;
+    }

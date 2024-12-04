@@ -8,6 +8,7 @@ body {
     background-attachment: fixed; 
     background-position: center; 
     min-height: 100vh;
+    position: relative;
 }
 .container {
     margin: 50px auto;
@@ -23,11 +24,48 @@ body {
 }
 
 .card {
-    background-color: #E6E2D6 !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
-    color: #393939; 
-    margin-bottom: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Limita el ancho de la tarjeta */
+    background: #E6E2D6 !important;
+    overflow: hidden;
+}
+
+.table {
+    word-wrap: break-word; /* Permite que el texto largo se ajuste dentro de las celdas */
+    table-layout: fixed;   /* Ajusta el ancho de las columnas */
+    font-size: 12px;
+}
+
+.table th, .table td {
+    text-align: center;    /* Centra el contenido en las celdas */
+    vertical-align: middle;
+}
+
+.table img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+.result {
+    overflow-x: auto; /* Habilita el scroll horizontal si la tabla es muy ancha */
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+.alert {
+    margin-top: 10px;
 }
 
 /* Eliminar el transform para evitar el salto cuando se pasa el cursor */
@@ -136,4 +174,20 @@ form button.btn:hover {
     align-items: center; /* Centrar contenido verticalmente */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    header .header-icons {
+        margin-top: 10px;
+    }
 }

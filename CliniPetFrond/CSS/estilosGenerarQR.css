@@ -8,6 +8,7 @@ body {
     background-attachment: fixed; 
     background-position: center; 
     min-height: 100vh;
+    position: relative;
 }
 .container {
     margin: 50px auto;
@@ -123,17 +124,19 @@ form button.btn:hover {
     margin-right: 30px;
 }
 
-.footer {
-    position: absolute; /* Se posicionará respecto al contenedor */
-    left: 0;
-    bottom: 0;
-    padding: 1em 0;
-    width: 100%; /* Ocupa todo el ancho */
-    height: 60px; /* Altura del footer */
-    background-color: #035E8D; /* Color del footer */
-    display: flex; /* Activar flexbox */
-    justify-content: center; /* Centrar contenido horizontalmente */
-    align-items: center; /* Centrar contenido verticalmente */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    color: white;
-}
+
+
+ .footer {
+        position: absolute; /* Se posicionará respecto al contenedor */
+        left: 0;
+        bottom: 0;
+        padding: 1em 0;
+        width: 100%; /* Ocupa todo el ancho */
+        height: 60px; /* Altura del footer */
+        background-color: #035E8D; /* Color del footer */
+        display: flex; /* Activar flexbox */
+        justify-content: center; /* Centrar contenido horizontalmente */
+        align-items: center; /* Centrar contenido verticalmente */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        color: white;
+    }
