@@ -142,7 +142,7 @@ form button.btn:hover {
   
 
   .footer {
-    position: absolute; /* Se posicionará respecto al contenedor */
+    position: relative; /* Se posicionará respecto al contenedor */
     left: 0;
     bottom: 0;
     padding: 1em 0;
